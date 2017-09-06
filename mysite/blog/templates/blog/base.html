@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<head>
+    <title>{% block head_title %}Welcome to my blog{% endblock %}</title>
+
+
+</head>
+
+<body>
+    <div id="sidebar">
+        <h1></h1>
+    </div>
+    <div id="content">
+        {% block content %} {% endblock %}</div>
+</body>
+
+</html>
